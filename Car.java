@@ -27,7 +27,7 @@ public class Car {
     }
 
     public String toString(){
-        return "Car, number of doors: " + numDoors + "top speed: " + topSpeed ;
+        return "Car, number of doors: " + numDoors + " top speed: " + topSpeed ;
     }
 
 
