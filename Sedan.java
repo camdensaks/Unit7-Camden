@@ -1,8 +1,8 @@
 public class Sedan extends Car{
 public static final int height = 5;
 
-    public Sedan(){
-        super(4, 130);
+    public Sedan(int door, int speed){
+        super(door, speed);
     }
 
     public int getHeight(){
@@ -11,7 +11,7 @@ public static final int height = 5;
 
     public int calcMPG(int miles, int gallon){
         int mpg = 0;
-        mpg = miles * gallon;
+        mpg = miles / gallon;
         return mpg;
     }
 
