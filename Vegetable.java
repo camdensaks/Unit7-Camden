@@ -6,6 +6,7 @@ public abstract class Vegetable implements Growable {
     public Vegetable(String name, String type){
         this.name = name;
         this.type = type;
+        setInstructions("Feeding" + feed() + " Watering" + water() + " Harvest" + harvest());
     }
 
     public String getName(){
@@ -20,7 +21,7 @@ public abstract class Vegetable implements Growable {
         return instructions;
     }
 
-    protected void setInstructions(String instructions){
+    private void setInstructions(String instructions){
         this.instructions = instructions;
     }
 

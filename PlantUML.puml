@@ -1,0 +1,23 @@
+@startuml
+
+abstract class Vegetable{
+String name
+String getName()
+}
+interface Growable
+class Potato{
+String feed()
+String harvest()
+String water()
+}
+class Lettuce{
+String feed()
+String harvest()
+String water()
+}
+class Broccoli{
+String feed()
+String harvest()
+String water()
+}
+@enduml
